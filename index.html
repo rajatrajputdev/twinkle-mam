@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Twinkle Sharma</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Yantramanav:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+                publicKey: "7ekcvi9xHVikTfOB5",
+            });
+        })();
+    </script>
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="scss/bootstrap.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-secondary px-5 d-none d-lg-block">
+        <div class="row gx-0 align-items-center" style="height: 45px;">
+            <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                <div class="d-flex flex-wrap">
+                    <a href="#" class="text-light me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A
+                        Location</a>
+                    <a href="#" class="text-light me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+91
+                        9999020084</a>
+                    <a href="#" class="text-light me-0"><i
+                            class="fas fa-envelope text-primary me-2"></i>Twinklesharma2075@gmail.com</a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-flex justify-content-end">
+                    <div class="border-end border-start py-1">
+                        <a href="https://www.facebook.com/share/6vNtpAerB5VoMhwD/?mibextid=qi2Omg"
+                            class="btn text-primary"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="border-end py-1">
+                        <a href="https://www.instagram.com/Twinkles302?igsh=YnllczF5a2dvdGph"
+                            class="btn text-primary"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="border-end py-1">
+                        <a href="https://www.linkedin.com/in/Twinkle-sharma-546807340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            class="btn text-primary"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
+            <a href="#" class="navbar-brand p-0">
+                <h1 class="text-primary m-0"><i class="fas fa-dance me-3"></i>Twinkle Sharma</h1>
+                <p class="text-primary m-0" style="font-size: 15px;"><i class="fas fa-dance me-3"></i>Dir. Shri Natraj
+                    Nritya Academy Registered from Pracheen Kla Kendra</p>
+                <!-- <img src="img/logo.png" alt="Logo"> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="achievements.html" class="nav-item nav-link">Achievements</a>
+                </div>
+                <a href="#contact-form"
+                    class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Contact
+                    Us</a>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar & Hero End -->
+
+
+    <!-- Carousel Start -->
+    <div class="header-carousel owl-carousel">
+        <div class="header-carousel-item">
+            <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="Image">
+            <div class="carousel-caption">
+                <div class="carousel-caption-content p-3" style="max-width: 900px;">
+                    <h4 class="text-secondary text-uppercase sub-title fw-bold mb-4 wow fadeInUp" data-wow-delay="0.1s"
+                        style="letter-spacing: 3px;">Life is better when you Dance!</h4>
+                    <h1 class="display-1 text-capitalize text-white mb-4 wow fadeInUp" data-wow-delay="0.3s">Once A
+                        Dancer, Is Always A Dancer</h1>
+                    <p class="fs-5 wow fadeInUp" data-wow-delay="0.5s">Dance is meditation in motion, where the soul
+                        finds rhythm and the mind finds peace.
+                    </p>
+                    <div class="pt-2">
+                        <a class="btn btn-primary rounded-pill text-white py-3 px-5 m-2 wow fadeInLeft"
+                            data-wow-delay="0.1s" href="https://chat.whatsapp.com/D2QjvHOg0mO9neJn8R5yKe">Join Now</a>
+                        <a class="btn btn-secondary rounded-pill text-white py-3 px-5 m-2 wow fadeInRight"
+                            data-wow-delay="0.3s" href="about.html">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="header-carousel-item">
+            <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="Image">
+            <div class="carousel-caption">
+                <div class="carousel-caption-content p-3" style="max-width: 900px;">
+                    <h4 class="text-secondary text-uppercase sub-title fw-bold mb-4" style="letter-spacing: 3px;">Let's
+                        Dance</h4>
+                    <h1 class="display-1 text-capitalize text-white mb-4">Once A Dancer, Is Always A Dancer</h1>
+                    <p class="fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    </p>
+                    <div class="pt-2">
+                        <a class="btn btn-primary rounded-pill text-white py-3 px-5 m-2 wow fadeInLeft"
+                            data-wow-delay="0.1s" href="#">Join Now</a>
+                        <a class="btn btn-secondary rounded-pill text-white py-3 px-5 m-2 wow fadeInRight"
+                            data-wow-delay="0.3s" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-carousel-item">
+            <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="Image">
+            <div class="carousel-caption">
+                <div class="carousel-caption-content p-3" style="max-width: 900px;">
+                    <h4 class="text-secondary text-uppercase sub-title fw-bold mb-4" style="letter-spacing: 3px;">Let's
+                        Dance</h4>
+                    <h1 class="display-1 text-capitalize text-white mb-4">Once A Dancer, Is Always A Dancer</h1>
+                    <p class="fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    </p>
+                    <div class="pt-2">
+                        <a class="btn btn-primary rounded-pill text-white py-3 px-5 m-2 wow fadeInLeft"
+                            data-wow-delay="0.1s" href="#">Join Now</a>
+                        <a class="btn btn-secondary rounded-pill text-white py-3 px-5 m-2 wow fadeInRight"
+                            data-wow-delay="0.3s" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Banner Start -->
+    <div class="container-fluid bg-secondary wow zoomInDown" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center text-center p-5">
+                <h1 class="me-4"><span class="fw-normal">Great dancers transcend technique; their greatness lies in the fiery passion that fuels their every move.
+
+                    Through their art, the body speaks a language beyond words, conveying emotions that the tongue could never capture.</h1>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Banner End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.1s">
+                    <div class="border bg-secondary rounded">
+                        <img src="img/about-2.png" class="img-fluid w-100 rounded" alt="Image">
+                    </div>
+                </div>
+                <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.3s">
+                    <h4 class="text-secondary sub-title fw-bold">about The Dance Teacher</h4>
+                    <h1 class="display-3 mb-4"><strong class="text-primary">Twinkle Sharma</strong>, She has been
+                        teaching dance since 2011</h1>
+                    <p>In a world where women often face societal pressures to conform to traditional roles, the
+                        inspiring journey of Miss Twinkle serves as a powerful testament to resilience and
+                        determination. Born and raised in Saharanpur, India, Twinkle began her dance training at the
+                        tender age of five under the guidance of her maternal grandmother.</p>
+                    <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="about.html">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Counter Facts Start -->
+    <div class="container-fluid counter-facts py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="counter">
+                        <div class="counter-icon w-100 d-flex align-items-center justify-content-center">
+                            <h3>Tailored Timings</h3>
+                        </div>
+                        <div class="counter-content d-flex align-items-center justify-content-center mt-4">
+                            <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 15px;">Sessions scheduled to match your convenience.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="counter">
+                        <div class="counter-icon w-100 d-flex align-items-center justify-content-center">
+                            <h3>Live & Interactive </h3>
+                        </div>
+                        <div class="counter-content d-flex align-items-center justify-content-center mt-4">
+                            <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 15px;">Engage with instructors in real-time.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="counter">
+                        <div class="counter-icon w-100 d-flex align-items-center justify-content-center">
+                            <h3>24/7 Support</h3>
+                        </div>
+                        <div class="counter-content d-flex align-items-center justify-content-center mt-4">
+                            <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 15px;">Quick responses to your queries via email.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="counter">
+                        <div class="counter-icon w-100 d-flex align-items-center justify-content-center">
+                            <h3>Inclusive for All</h3>
+                        </div>
+                        <div class="counter-content d-flex align-items-center justify-content-center mt-4">
+                            <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 15px;">Open to every age and background.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp"  style="margin-top: 100px;" data-wow-delay="0.5s">
+                    <div class="counter">
+                        <div class="counter-icon w-100 d-flex align-items-center justify-content-center">
+                            <h3>Encouraging Curiosity</h3>
+                        </div>
+                        <div class="counter-content d-flex align-items-center justify-content-center mt-4">
+                            <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 15px;"> Relevant questions are welcomed and answered.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" style="margin-top: 100px;" data-wow-delay="0.5s">
+                    <div class="counter">
+                        <div class="counter-icon w-100 d-flex align-items-center justify-content-center">
+                            <h3>Bilingual Comfort</h3>
+                        </div>
+                        <div class="counter-content d-flex align-items-center justify-content-center mt-4">
+                            <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 15px;">Sessions in English with Hindi as an option.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Counter Facts End -->
+
+
+
+
+
+    <!-- Dance Class Start -->
+    <div class="container-fluid class bg-light py-5">
+        <div class="container py-5">
+            <div class="pb-5">
+                <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s">Our Dance Classes</h4>
+                <h1 class="display-2 mb-0 wow fadeInUp" data-wow-delay="0.3s">What you will learn?</h1>
+            </div>
+            <div class="class-carousel owl-carousel pt-f wow fadeInUp" data-wow-delay="0.1s">
+                <div class="class-item bg-white rounded wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="class-img rounded-top">
+                        <img src="img/bharatnatyam.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                    </div>
+                    <div class="rounded-bottom p-4">
+                        <a href="#" class="h4 mb-3 d-block">Bharatanatyam</a>
+                        <p class="mb-3">Bharatanatyam is an Indian classical dance form that originated in Tamil Nadu,
+                            India. It is a classical dance form recognized by the Sangeet Natak Akademi, and expresses
+                            South Indian religious themes and spiritual ideas of Hinduism and Jainism.</p>
+                    </div>
+                </div>
+                <div class="class-item bg-white rounded wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="class-img rounded-top">
+                        <img src="img/kathak.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                    </div>
+                    <div class="rounded-bottom p-4">
+                        <a href="#" class="h4 mb-3 d-block">Kathak</a>
+                        <p class="mb-3">Kathak is one of the nine major forms of Indian classical dance. Its origin is
+                            attributed to the traveling bards in ancient northern India known as Kathakar, who
+                            communicated stories from the Hindu epics through dance, songs and music</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dance Class End -->
+
+
+    <!-- Events Start -->
+
+    <!-- Events End -->
+
+
+
+    <!-- Blogs Start -->
+    <div class="container-fluid events py-5" id="events">
+        <div class="container py-5">
+            <div class="pb-5">
+                <div class="row g-4 align-items-end">
+                    <div class="col-xl-8">
+                        <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s">Awards</h4>
+                        <h1 class="display-2 mb-0 wow fadeInUp" data-wow-delay="0.3s">Awards and Achievements</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="event-item rounded">
+                        <div class="position-relative">
+                            <img src="awards/1.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="border border-top-0 rounded-bottom p-4">
+                            <a href="#" class="h4 mb-3 d-block">Jury at Faridabad Talent Hunt 2024 awarded by Asian Institute of Medical Sciences</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="event-item rounded">
+                        <div class="position-relative">
+                            <img src="awards/2.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="border border-top-0 rounded-bottom p-4">
+                            <a href="#" class="h4 mb-3 d-block">Saadhanaa Sammaan Patra by Maalyarth Foundation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="event-item rounded">
+                        <div class="position-relative">
+                            <img src="awards/3.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="border border-top-0 rounded-bottom p-4">
+                            <a href="#" class="h4 mb-3 d-block">Nrityavishkar Award at World Dancers Olympiad Season 5 by ANASS India</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="event-item rounded">
+                        <div class="position-relative">
+                            <img src="awards/4.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="border border-top-0 rounded-bottom p-4">
+                            <a href="#" class="h4 mb-3 d-block">Nritya Guruvarya Awardat Nritya Darpanby ANASS India</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="event-item rounded">
+                        <div class="position-relative">
+                            <img src="awards/5.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="border border-top-0 rounded-bottom p-4">
+                            <a href="#" class="h4 mb-3 d-block">For Excellence in Enterpreneur Performing Arts" by FoXclues</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="event-item rounded">
+                        <div class="position-relative">
+                            <img src="awards/6.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="border border-top-0 rounded-bottom p-4">
+                            <a href="#" class="h4 mb-3 d-block">Guest of Honour at Sankriti Sangam 2022(India's longest 15 days cultural event) by NEV Events and Entertainment Pvt.Ltd</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="event-item rounded">
+                        <div class="position-relative">
+                            <img src="awards/7.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="border border-top-0 rounded-bottom p-4">
+                            <a href="#" class="h4 mb-3 d-block">Nritya Guruvarya Award 
+                                For Jury of Bollywood, Hip Hop, Contemporary and Indian Folk at Nritya Darpan ' Jaipur 
+                                By ANASS India</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="event-item rounded">
+                        <div class="position-relative">
+                            <img src="awards/8.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="border border-top-0 rounded-bottom p-4">
+                            <a href="#" class="h4 mb-3 d-block">Nitya Guruvarya Award 
+                                For Jury of Bharatnatyam and Kuchipudi at Nritya Sankriti by ANASS India</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="event-item rounded">
+                        <div class="position-relative">
+                            <img src="awards/9.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="border border-top-0 rounded-bottom p-4">
+                            <a href="#" class="h4 mb-3 d-block">For Excellence in Enterpreneur Performing Arts" by FoXclues</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="event-item rounded">
+                        <div class="position-relative">
+                            <img src="awards/10.JPG" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="border border-top-0 rounded-bottom p-4">
+                            <a href="#" class="h4 mb-3 d-block">Nritya Guruvarya Award 
+                                For Jury of Bharatnatyam and Kuchipudi 
+                                At Nritya Sankriti by ANASS India</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="event-item rounded">
+                        <div class="position-relative">
+                            <img src="awards/11.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="border border-top-0 rounded-bottom p-4">
+                            <a href="#" class="h4 mb-3 d-block">Madhupurnam (International Indian Classical Dance & Indian Folk Dance Festival & Competition '2020)
+                                By Odissi Nritya Kla Kendra</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="event-item rounded">
+                        <div class="position-relative">
+                            <img src="awards/13.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="border border-top-0 rounded-bottom p-4">
+                            <a href="#" class="h4 mb-3 d-block">Women of Excellence (Enterpreneur - Performing Art)
+                                At Biggest Luxury walk & Exclusive India Awards 2021
+                                By The Crazy Tales</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="event-item rounded">
+                        <div class="position-relative">
+                            <img src="awards/14.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="border border-top-0 rounded-bottom p-4">
+                            <a href="#" class="h4 mb-3 d-block">Participated in Karthak Workshop at Samarpan 2019 
+                                By Pandit Rajendra Gangani Ji
+                                Iss image ko straight karde</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="event-item rounded">
+                        <div class="position-relative">
+                            <img src="awards/18.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="border border-top-0 rounded-bottom p-4">
+                            <a href="#" class="h4 mb-3 d-block">Judge at Faridabad Talent Hunt</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="event-item rounded">
+                        <div class="position-relative">
+                            <img src="awards/15.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="border border-top-0 rounded-bottom p-4">
+                            <a href="#" class="h4 mb-3 d-block">Nrutya Sadhana Award 
+                                for Kathak solo performance 
+                                At Nrutyasanskruti'2020, Nagpur 
+                                By ANASS India</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="event-item rounded">
+                        <div class="position-relative">
+                            <img src="awards/16.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="border border-top-0 rounded-bottom p-4">
+                            <a href="#" class="h4 mb-3 d-block">Plaque of honour 
+                                At Nritya Purnam Samman 2020</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="event-item rounded">
+                        <div class="position-relative">
+                            <img src="awards/17.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="border border-top-0 rounded-bottom p-4">
+                            <a href="#" class="h4 mb-3 d-block">Kala Shree Sammaan 2020
+                                At Visharad Kala Utsava 
+                                By Visharad Foundation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blogs End -->
+
+
+
+
+    <!-- Video Gallery Start -->
+    <div class="container-fluid gallery pb-5">
+        <div class="container pb-5">
+            <div class="pb-5">
+                <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s">Dance Gallery</h4>
+                <h1 class="display-2 mb-0 wow fadeInUp" data-wow-delay="0.3s">Gallery</h1>
+            </div>
+            <div class="tab-class wow fadeInUp" data-wow-delay="0.1s">
+
+                <div class="tab-content">
+                    <div id="GalleryTab-1" class="tab-pane fade show p-0 active">
+                        <div class="row g-2">
+                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="video h-100">
+                                    <img src="gall/1.jpg" class="img-fluid rounded w-100 h-100"
+                                        style="object-fit: cover;" alt="">
+
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="video h-100">
+                                    <img src="gall/2.png" class="img-fluid rounded w-100 h-100"
+                                        style="object-fit: cover;" alt="">
+
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="video h-100">
+                                    <img src="gall/3.png" class="img-fluid rounded w-100 h-100"
+                                        style="object-fit: cover;" alt="">
+
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="video h-100">
+                                    <img src="gall/4.png" class="img-fluid rounded w-100 h-100"
+                                        style="object-fit: cover;" alt="">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Video -->
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen
+                            allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Gallery End -->
+    <style>
+        .testimonial-item video {
+            width: 100%; /* Ensures the video adapts to the container's width */
+            max-width: 500px; /* Sets a maximum width for consistency */
+            height: 500px; /* Sets a fixed height */
+            object-fit: cover; /* Ensures the video content scales nicely */
+        }
+    </style>
+    
+
+    <section class="testimonial-section py-5 bg-light">
+        <div class="container">
+            <div class="text-center pb-5">
+                <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s">OUR STUDENT Reviews</h4>
+                <h1 class="display-4 fw-bold wow fadeInUp" data-wow-delay="0.3s">What Our Students Say</h1>
+            </div>
+    
+            <div id="testimonialCarousel" class="carousel slide shadow-lg rounded p-3 bg-white" data-bs-ride="carousel" data-bs-interval="5000">
+                <div class="carousel-inner text-center">
+                    <div class="carousel-item active">
+                        <div class="testimonial-item border rounded p-4">
+                            <video class="rounded video-player" autoplay loop playsinline muted style="max-width: 75%; height: auto;" controls>
+                                <source src="./videos/1.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-item border rounded p-4">
+                            <video class="rounded video-player" autoplay loop playsinline muted style="max-width: 75%; height: auto;" controls>
+                                <source src="./videos/2.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-item border rounded p-4">
+                            <video class="rounded video-player" autoplay loop playsinline muted style="max-width: 75%; height: auto;" controls>
+                                <source src="./videos/3.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>    
+                    <!-- Video 1 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-item border rounded p-4">
+                            <video class="rounded video-player" autoplay loop playsinline muted style="max-width: 75%; height: auto;" controls>
+                                <source src="./videos/WhatsApp Video 2025-01-30 at 20.08.37_16e09a0e.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+    
+                    <!-- Video 2 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-item border rounded p-4">
+                            <video class="rounded video-player" autoplay loop playsinline muted style="max-width: 75%; height: auto;" controls>
+                                <source src="./videos/WhatsApp Video 2025-01-30 at 20.08.39_08a9f704.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+    
+                    <!-- Video 3 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-item border rounded p-4">
+                            <video class="rounded video-player" autoplay loop playsinline muted style="max-width: 75%; height: auto;" controls>
+                                <source src="./videos/WhatsApp Video 2025-01-30 at 20.08.46_aa6227cb.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+    
+                    <!-- Video 4 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-item border rounded p-4">
+                            <video class="rounded video-player" autoplay loop playsinline muted style="max-width: 75%; height: auto;" controls>
+                                <source src="./videos/WhatsApp Video 2025-01-30 at 20.08.49_08ac59bc.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+    
+                    <!-- Video 5 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-item border rounded p-4">
+                            <video class="rounded video-player" autoplay loop playsinline muted style="max-width: 75%; height: auto;" controls>
+                                <source src="./videos/WhatsApp Video 2025-01-30 at 20.08.52_fd1a8c61.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev manual-nav-btn" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next manual-nav-btn" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let carousel = document.getElementById("testimonialCarousel");
+            let videos = document.querySelectorAll(".video-player");
+    
+            function pauseAllVideos() {
+                videos.forEach(video => {
+                    video.pause();
+                    video.currentTime = 0; // Reset video to start
+                });
+            }
+    
+            function playActiveVideo() {
+                let activeVideo = document.querySelector(".carousel-item.active video");
+                if (activeVideo) {
+                    activeVideo.play(); // Play the video of the active carousel item
+                }
+            }
+    
+            // Automatic sliding feature
+            carousel.addEventListener("slide.bs.carousel", function () {
+                pauseAllVideos(); // Pause all videos before sliding
+            });
+    
+            carousel.addEventListener("slid.bs.carousel", function () {
+                playActiveVideo(); // Play the video of the newly active carousel item
+            });
+    
+            // Play the first video automatically on page load
+            let firstVideo = document.querySelector(".carousel-item.active video");
+            if (firstVideo) {
+                firstVideo.play(); // Ensure first video plays
+            }
+        });
+    </script>
+    
+    <style>
+        .manual-nav-btn {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            position: absolute;
+            top: 50%; /* Centers the buttons vertically */
+            transform: translateY(-50%); /* Adjusts for exact vertical centering */
+            z-index: 10; /* Ensures the buttons are above the video */
+        }
+        
+        .carousel-control-prev {
+            left: 10px; /* Moves the left button a little inside from the edge */
+        }
+        
+        .carousel-control-next {
+            right: 10px; /* Moves the right button a little inside from the edge */
+        }
+        
+        .manual-nav-btn:hover {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        
+    </style>
+    <!-- Testimonial End -->
+    <div class="container-fluid contact py-5">
+        <div class="container py-5">
+            <div class="pb-5">
+                <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s">Contact Us</h4>
+                <h1 class="display-2 mb-0 wow fadeInUp" data-wow-delay="0.3s">Get In Touch</h1>
+            </div>
+            <div class="bg-light rounded p-4 pb-0">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                        <h2 class="display-5 mb-2">Contact Form</h2>
+                        <p class="mb-4">Contact us for further info!</p>
+                        <form id="contact-form" class="contact-form">
+                            <div class="row g-3">
+                                <div class="col-lg-12 col-xl-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                        <label for="name">Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-xl-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                        <label for="email">Your Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                        <label for="subject">Subject</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                            style="height: 160px"></textarea>
+                                        <label for="message">Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        window.onload = function () {
+            document.getElementById('contact-form').addEventListener('submit', function (event) {
+                event.preventDefault();
+                emailjs.send("service_ctpztjb", "template_0b54uxe", {
+                    from_name: document.getElementById("name").value,
+                    to_name: "Twinkle Sharma",
+                    message: document.getElementById("message").value,
+                    email: document.getElementById("email").value,
+                }, this)
+                    .then(() => {
+                        console.log('SUCCESS!');
+                        alert("Your message has been sent to Twinkle Sharma.")
+                    }, (error) => {
+                        console.log('FAILED...', error);
+                        alert("Your message has not been sent to Twinkle Sharma. Kindly reach out to her using other contact information.")
+                    });
+            });
+        }
+    </script>
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-1">
+            <h1 style="text-align: center; color: white;">All Rights Reserved. &copy; Twinkle Sharma 2024</h1>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
